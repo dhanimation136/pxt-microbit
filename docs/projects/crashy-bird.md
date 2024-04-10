@@ -1,18 +1,5 @@
 # Crashy Bird
 
-## ~avatar avatar
-
-All the fun from the Flappy Bird game is coming to the @boardname@ as Crashy Bird!
-
-## ~
-
-This is a simple version of the Flappy Bird game for @boardname@. The objective is to direct a flying bird, which is moving continuously to the right, between sets of obstacles. If the player touches an obstacle, they lose. The purpose of this tutorial is to teach the basics of game sprites, arrays, and loops.
-
-## Step 1: Add the Bird to the Game
-
-First, we are going to add a sprite for the bird from the **Game** menu and make it blink.
-
-```blocks
 let bird: game.LedSprite = null
 bird = game.createSprite(0, 2)
 bird.set(LedSpriteProperty.Blink, 300)
